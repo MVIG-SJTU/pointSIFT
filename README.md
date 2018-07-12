@@ -1,10 +1,12 @@
 ## PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation
 
-Created by ***
+Created by Mingyang Jiang, Yiran Wu, Cewu Lu (corresponding author).
 
 ### Introduction
 
-PointSIFT is a semantic segmentation framework for 3D point clouds. It is based on a simple module which extract featrues from neighbor points in eight directions.
+PointSIFT is a semantic segmentation framework for 3D point clouds. It is based on a simple module which extract featrues from neighbor points in eight directions. For more details, please refer to our [arxiv paper](https://arxiv.org/abs/1807.00652).
+
+**PointSIFT is freely available for free non-commercial use, and may be redistributed under these conditions. For commercial queries, contact Cewu Lu.**
 
 ![Fig1 not found!!](img/fig1.png)
 
@@ -59,3 +61,16 @@ If you have multiple GPU:
 ``` bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python train_and_eval_scannet.py --gpu_num=4
 ```
+
+### Citation
+
+Please cite the paper in your publications if it helps your research:
+```
+@misc{1807.00652,
+Author = {Mingyang Jiang and Yiran Wu and Cewu Lu},
+Title = {PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation},
+Year = {2018},
+Eprint = {arXiv:1807.00652},
+}
+```
+
