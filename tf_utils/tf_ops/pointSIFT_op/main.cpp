@@ -8,7 +8,6 @@
 #include "tensorflow/core/framework/shape_inference.h"
 #include "tensorflow/core/framework/common_shape_fns.h"
 #include <cuda_runtime.h>
-#include "kdt.h"
 
 using namespace tensorflow;
 
