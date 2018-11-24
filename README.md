@@ -1,6 +1,6 @@
 ## PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation
 
-Created by Mingyang Jiang, Yiran Wu, [Cewu Lu](http://mvig.sjtu.edu.cn/) (corresponding author).
+Created by Mingyang Jiang, Yiran Wu, Tianqi Zhao, Zelin Zhao, [Cewu Lu](http://mvig.sjtu.edu.cn/) (corresponding author).
 
 ### Introduction
 
@@ -67,7 +67,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train_and_eval_scannet.py --gpu_num=4
 Please cite the paper in your publications if it helps your research:
 ```
 @misc{1807.00652,
-Author = {Mingyang Jiang and Yiran Wu and Cewu Lu},
+Author = {Mingyang Jiang and Yiran Wu and Tianqi Zhao and Zelin Zhao and Cewu Lu},
 Title = {PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation},
 Year = {2018},
 Eprint = {arXiv:1807.00652},
